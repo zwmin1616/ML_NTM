@@ -1,0 +1,595 @@
+    1  apt-get install language-pack-ko
+    2  locale-gen ko_KR.UTF-8
+    3  apt-getp update
+    4  apt-get update
+    5  apt-get install python3-pip -y
+    6  curl -O http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_8.0.61-1_amd64.deb
+    7  ls
+    8  dpkg -i ./cuda-repo-ubuntu1604_8.0.61-1_amd64.deb 
+    9  apt-get update
+   10  apt-get install cuda-9-0
+   11  nvidia-smi
+   12  sudo sh -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64 /" >> /etc/apt/sources.list.d/cuda.list'
+   13  apt-get update
+   14  apt-get install libcudnn7-dev
+   15  pip3 install tensorflow-gpu torch torchvision keras
+   16  pip3 install jupyter sklearn matplotlib seaborn pandas
+   17  jupyter notebook --generate-config
+   18  pip install --upgrade pip
+   19  apt install python-pip
+   20  pip install --upgrade pip
+   21  jupyter notebook --generate-config
+   22  pip3 install jupyter sklearn matplotlib seaborn pandas
+   23  pip install --upgrade pip
+   24  python -m pip install --user --upgrade pip==9.0.3
+   25  pip3 install jupyter sklearn matplotlib seaborn pandas
+   26  pip install --upgrade pip
+   27  pip3 install jupyter sklearn matplotlib seaborn pandas
+   28  reboot
+   29  pip3 install jupyter sklearn matplotlib seaborn pandas
+   30  pip install --upgrade pip
+   31  python -m pip install --upgrade pip
+   32  python3 -m pip install --upgrade pip
+   33  pip3 install jupyter sklearn matplotlib seaborn pandas
+   34  python3 -m pip uninstall pip
+   35  apt install python3-pip --reinstall
+   36  pip3 install jupyter sklearn matplotlib seaborn pandas
+   37  pip install matplotlib
+   38  pip3 install matplotlib
+   39  pip -b
+   40  pip -v
+   41  apt-get install python-pip
+   42  apt-get install python3-pip
+   43  pip3 mataplotlib pillow
+   44  pip3 install jupyter sklearn matplotlib seaborn pandas
+   45  pip3 install jupyter sklearn seaborn pandas
+   46  apt-get upgrade python3
+   47  apt-get upgrade python
+   48  pip3 install jupyter sklearn seaborn pandas
+   49  python3 -version
+   50  python3 -V
+   51  mkdir /tmp/Python37
+   52  cd /tmp/Python37
+   53  wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tar.xz
+   54  tar xvf Python-3.7.0.tar.xz
+   55  cd /tmp/Python37/Python-3.7.0
+   56  ./configure
+   57  make altinstall
+   58  pip3 install jupyter sklearn matplotlib seaborn pandas
+   59  sudo python3 -m pip uninstall pip && sudo apt install python3-pip
+   60  sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall
+   61  pip3 install jupyter sklearn matplotlib seaborn pandas
+   62  python3 -V
+   63  pip -V
+   64  pip -version
+   65  pip install --upgrade pip
+   66  apt-get install pip
+   67  sudo apt-get install software-properties-common
+   68  sudo apt-add-repository universe
+   69  sudo apt-get update
+   70  sudo apt-get install python-pip
+   71  pip
+   72  apt-get purge --auto-remove python0pip
+   73  apt0get update
+   74  apt-get update
+   75  apt-get -y instlal python-pip
+   76  apt-get instlal python-pip
+   77  apt-get instaal python-pip
+   78  apt-get install python-pip
+   79  apt autoremove
+   80  apt-get install python-pip
+   81  curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+   82  python get-pip.py 
+   83  pip3 install jupyter sklearn matplotlib seaborn pandas
+   84  python3 -V
+   85  apt-get -y install python3-pip
+   86  apt-get update
+   87  curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+   88  python3 get-pip.py
+   89  pip3 install jupyter sklearn matplotlib seaborn pandas
+   90  apt update
+   91  apt install python3-pip
+   92  pip3 --version
+   93  pthon30pip
+   94  pthon3-pip
+   95  python3-pip
+   96  python3
+   97  cd ..
+   98  ls
+   99  cd ..
+  100  ls
+  101  cd ..
+  102  ls
+  103  cd ~
+  104  ls
+  105  pip3 install jupyter sklearn matplotlib seaborn pandas
+  106  sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall
+  107  pip3 install jupyter sklearn matplotlib seaborn pandas
+  108  pip.73 install jupyter sklearn matplotlib seaborn pandas
+  109  pip3.7 install jupyter sklearn matplotlib seaborn pandas
+  110  pip3.7 install tensorflow-gpu torch torchvision keras
+  111  jupyter notebook --generate-config
+  112  cd /root/.jupyter/
+  113  vi jupyter_notebook_config.py 
+  114  jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root
+  115  exit
+  116  ls
+  117  aws s3 sync --no-sign-request --region ap-northeast-2 "s3://cse-cic-ids2018/" dest-dir
+  118  apt install awscl
+  119  apt install awscli
+  120  aws s3 sync --no-sign-request --region ap-northeast-2 "s3://cse-cic-ids2018/" dest-dir
+  121  aws s3 sync --no-sign-request --region us-east-2 "s3://cse-cic-ids2018/" awsData
+  122  ls
+  123  cd awsData/
+  124  ls
+  125  ls -al
+  126  cd Processed\ Traffic\ Data\ for\ ML\ Algorithms/
+  127  ls
+  128  vf ..
+  129  cd ..
+  130  ls -al
+  131  cd Processed\ Traffic\ Data\ for\ ML\ Algorithms/
+  132  ls -al
+  133  cd ..
+  134  ls
+  135  cd ..
+  136  ls
+  137  rm -r dest-dir/
+  138  ls
+  139  rm cuda-repo-ubuntu1604_8.0.61-1_amd64.deb 
+  140  ls
+  141  shudown -h now
+  142  shutdown -h now
+  143  apt install kaggle
+  144  ls
+  145  mkdir kaggle
+  146  cd kaggle/
+  147  wget https://www.kaggle.com/c/4117/download-all
+  148  ls
+  149  cat download-all 
+  150  shutdown -h now
+  151  apt-get install unzip
+  152  ls
+  153  unzip incident_event_log.zip 
+  154  ls
+  155  ca incident_event_log.
+  156  ca incident_event_log.csv 
+  157  cat incident_event_log.csv 
+  158  ls
+  159  cd awsData/
+  160  ls
+  161  cd Original\ Network\ Traffic\ and\ Log\ data/
+  162  ls
+  163  cd Friday-02-03-2018/
+  164  ls
+  165  unzip logs.zip 
+  166  ls
+  167  ls-al
+  168  ls -al
+  169  chmod 777 logs
+  170  chmod 777 logs/*
+  171  ls
+  172  cd ..
+  173  ls
+  174  cd ..
+  175  ls
+  176  cd Processed\ Traffic\ Data\ for\ ML\ Algorithms/
+  177  ls
+  178  shutdown -h now
+  179  ls
+  180  cd awsData/
+  181  ls
+  182  ls -al
+  183  cd Processed\ Traffic\ Data\ for\ ML\ Algorithms/
+  184  ls
+  185  head Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv
+  186  cat Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv | grep ddos
+  187  cat Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv | grep DDOS-LOIC-UDP
+  188  cat Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv | grep DDO
+  189  cat Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv | grep 18.218.83.150
+  190  cat Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv | grep 18.218
+  191  cat Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv | grep 18\.218
+  192  cat Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv | grep "18.219.200.189"
+  193  ls
+  194  cd ..
+  195  ls
+  196  cd Original\ Network\ Traffic\ and\ Log\ data/
+  197  ls
+  198  cd Fi
+  199  cd Wednesday-21-02-2018/
+  200  ls
+  201  unzip pcap.zip 
+  202  ls
+  203  cd pcap
+  204  ls -al
+  205  wget https://www.unb.ca/cic/_assets/documents/cicflowmeter-4.zip
+  206  ls
+  207  unzip cicflowmeter-4.zip 
+  208  ls
+  209  cd cicflowmeter-4.zip 
+  210  cd cicflowmeter-4.0
+  211  ls
+  212  cd CICFlowMeter-4.0/
+  213  ls
+  214  cd bin/
+  215  ls
+  216  cat CICFlowMeter
+  217  ls
+  218  CICFlowMeter
+  219  ./CICFlowMeter
+  220  ls
+  221  cd ..
+  222  ls
+  223  cd ..
+  224  ls
+  225  cd ..
+  226  ls
+  227  cd Processed\ Traffic\ Data\ for\ ML\ Algorithms/
+  228  ls
+  229  cd ..
+  230  cd awsData/
+  231  ls
+  232  mkdir cic2018
+  233  mv  -rf Original\ Network\ Traffic\ and\ Log\ data/ cic2018/
+  234  mv -help
+  235  man mv
+  236  mv Original\ Network\ Traffic\ and\ Log\ data/ cic2018/
+  237  mv Processed\ Traffic\ Data\ for\ ML\ Algorithms/ cic2018/
+  238  ls
+  239  cd cic2018/
+  240  ls
+  241  cd ..
+  242  mkdir ddosk2019
+  243  ls
+  244  cd do
+  245  mkdir ddos2019
+  246  rm ddosk2019/
+  247  rmdir ddosk2019/
+  248  cd ddos2019/
+  249  wget http://205.174.165.80/CICDataset/CICDDoS2019/Dataset/CSVs/CSV-01-12.zip
+  250  wget http://205.174.165.80/CICDataset/CICDDoS2019/Dataset/CSVs/CSV-03-11.zip
+  251  ls
+  252  unzip CSV-01
+  253  unzip CSV-01-12.zip 
+  254  ;s
+  255  l
+  256  sls
+  257  ls
+  258  cd 01-12/
+  259  ls
+  260  ls -al
+  261  head Syn.csv 
+  262  ls
+  263  cd ..
+  264  ls
+  265  df -k
+  266  cd ..
+  267  ls
+  268  cd ..
+  269  ls
+  270  head incident_event_log.csv 
+  271  cd ..
+  272  ls
+  273  mkdir insiderthreat
+  274  cd insiderthreat/
+  275  ls
+  276  wget ftp://ftp.sei.cmu.edu/pub/cert-data/r2.tar.bz2
+  277  wget ftp://ftp.sei.cmu.edu/pub/cert-data/r1.tar.bz2
+  278  ls
+  279  unzip r1.tar.bz2 
+  280  bunzip2 r1.tar.bz2 
+  281  ls
+  282  ls -al
+  283  tar -xcf r1.tar 
+  284  tar -xvf r1.tar 
+  285  ls
+  286  cd r1
+  287  ls
+  288  cd LDAP/
+  289  ls
+  290  head 2011-01.csv 
+  291  cd ..
+  292  ls
+  293  head logon.csv 
+  294  head http.csv 
+  295  ls
+  296  head device.csv 
+  297  ls
+  298  cat readme.txt 
+  299  cd ..
+  300  wget ftp://ftp.sei.cmu.edu/pub/cert-data/r6.1.tar.bz2
+  301  l
+  302  bunzip2 r6.1.tar.bz2 
+  303  ls
+  304  ls -al
+  305  cd ..
+  306  ls
+  307  cd kaggle/
+  308  ls
+  309  cd ..
+  310  ls
+  311  cd awsData/
+  312  ls
+  313  cd cic2018/
+  314  ls
+  315  cd or
+  316  cd Original\ Network\ Traffic\ and\ Log\ data/
+  317  ls
+  318  cd Thursday-01-03-2018
+  319  ls
+  320  unzip logs.zip 
+  321  ls
+  322  ls logs
+  323  ls
+  324  cd ..
+  325  ls
+  326  cd ..
+  327  ls
+  328  chmod 777 cic2018 -R
+  329  cd cic2018/
+  330  ls
+  331  cd Original\ Network\ Traffic\ and\ Log\ data/
+  332  ls
+  333  cd Friday-02-03-2018/
+  334  ls
+  335  cd ..
+  336  ls
+  337  cd do
+  338  cd ddos2019/
+  339  ls
+  340  cd 01-12/
+  341  ls
+  342  head DrDoS_DNS.csv 
+  343  ls
+  344  cd ..
+  345  ls
+  346  unzip CSV-03-11.zip 
+  347  ls
+  348  cd 03-11/
+  349  ls
+  350  head MSSQL.csv 
+  351  head LDAP.csv 
+  352  ls
+  353  cd 
+  354  cd ..
+  355  ls
+  356  cd home/
+  357  ls
+  358  cd minwook/
+  359  ls
+  360  cd awsData/
+  361  ls
+  362  cd cic2018/
+  363  ls
+  364  cd pro
+  365  cd Processed\ Traffic\ Data\ for\ ML\ Algorithmsls
+  366  cd
+  367  ls
+  368  pwd
+  369  cd /home/minwook/awsData/cic2018/Processed\ Traffic\ Data\ for\ ML\ Algorithms/
+  370  ls
+  371  head Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv 
+  372  head Friday-02-03-2018_TrafficForML_CICFlowMeter.csv 
+  373  head Friday-16-02-2018_TrafficForML_CICFlowMeter.csv 
+  374  head Friday-23-02-2018_TrafficForML_CICFlowMeter.csv 
+  375  cd ..
+  376  snort
+  377  apt install snort
+  378  snort
+  379  ls
+  380  cd awsData/
+  381  cd cic2018/
+  382  cd Original\ Network\ Traffic\ and\ Log\ data/
+  383  cd Wednesday-21-02-2018/
+  384  l
+  385  cd pcap
+  386  ls
+  387  snort -r capDESKTOP-AN3U28N-172.31.64
+  388  snort -r capDESKTOP-AN3U28N-172.31.64.46 
+  389  snort -r capDESKTOP-AN3U28N-172.31.64.46 -A 000.csv
+  390  man snrot | grep csv
+  391  man snort | grep csv
+  392  man snort
+  393  snort -r capDESKTOP-AN3U28N-172.31.64.46
+  394  cd ..
+  395  cd Processed\ Traffic\ Data\ for\ ML\ Algorithms/
+  396  ls
+  397  cd  ..
+  398  tar -zcvf Processed\ Traffic\ Data\ for\ ML\ Algorithms/
+  399  tar -zcvf Processed\ Traffic\ Data\ for\ ML\ Algorithms/ csv
+  400  ls
+  401  tar -zcvf test.tar.gz Processed\ Traffic\ Data\ for\ ML\ Algorithms/
+  402  ls
+  403  cd Processed\ Traffic\ Data\ for\ ML\ Algorithms/
+  404  ls
+  405  head Friday-02-03-2018_TrafficForML_CICFlowMeter.csv 
+  406  head Friday-16-02-2018_TrafficForML_CICFlowMeter.csv 
+  407  cat Friday-02-03-2018_TrafficForML_CICFlowMeter.csv |wc -l
+  408  ls -al
+  409  ls
+  410  mkdir infl_mal
+  411  cp Friday-02-03-2018_TrafficForML_CICFlowMeter.csv infl_mal/
+  412  cp Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv infl_mal/
+  413  cp Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv infl_mal/
+  414  ls
+  415  cd if
+  416  ls
+  417  cd infl_mal/
+  418  ls
+  419  head Friday-02-03-2018_TrafficForML_CICFlowMeter.csv 
+  420  head Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv 
+  421  head Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv 
+  422  cat Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv | wc -l
+  423  cat Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv | wc -l
+  424  ls
+  425  rm Friday-02-03-2018_TrafficForML_CICFlowMeter.csv 
+  426  ls
+  427  man snort
+  428  cd ..
+  429  ls
+  430  cd Original\ Network\ Traffic\ and\ Log\ data/
+  431  ls
+  432  cd Thursday-
+  433  cd Thursday-01-03-2018/
+  434  ls
+  435  cd logs
+  436  ls
+  437  cd ..
+  438  ls
+  439  man find
+  440  find ./ -name pcap -type d
+  441  cd Wednesday-21-02-2018/
+  442  ls
+  443  cd pcap
+  444  ls
+  445  snort -r capDESKTOP-AN3U28N-172.31.67.125 -C
+  446  cd /var/log/snort/
+  447  ls
+  448  cd /etc/
+  449  cd snort/
+  450  ls
+  451  vi snort.conf 
+  452  tskark
+  453  apt install tshcrk
+  454  apt-get install tsharck
+  455  apt-get update
+  456  apt-get install tsharck
+  457  apt-get install tshark
+  458  cd ~
+  459  pwd
+  460  cd ..
+  461  cd home/
+  462  cd minwook/
+  463  ls
+  464  cd awsData/
+  465  ls
+  466  cd cic2018/
+  467  sl
+  468  ls
+  469  cd Original\ Network\ Traffic\ and\ Log\ data/
+  470  ls
+  471  cd Wednesday-21-02-2018/
+  472  ls
+  473  cd pcap
+  474  ls
+  475  mkdir test
+  476  cp capDESKTOP-AN3U28N-172.31.67.116 test
+  477  cd test/
+  478  ls
+  479  tshark -R "tcp contains SEK" -2 -r capDESKTOP-AN3U28N-172.31.67.116 -T fields -e tcp.stream
+  480  tshark -nr capDESKTOP-AN3U28N-172.31.67.116  -q -z follow,tcp,asci,146
+  481  ls
+  482  tshark -r "capDESKTOP-AN3U28N-172.31.67.116" -Y usb -z conv,tcp
+  483  tshark -r "capDESKTOP-AN3U28N-172.31.67.116" -Y usb -z follow,tcp,hex,816.663929000 > session_816.663929000.hex
+  484  man tshark
+  485  tshark -r "capDESKTOP-AN3U28N-172.31.67.116" -Y usb -z follow,tcp,hex,146 > session_816.663929000.hex
+  486  ls
+  487  ls -al
+  488  cat session_816.663929000.hex 
+  489  tshark -r "capDESKTOP-AN3U28N-172.31.67.116" -Y usb -z conv,tcp
+  490  man tshark
+  491  tshark -R "tcp contains SEK" -2 -r capDESKTOP-AN3U28N-172.31.67.116 -T fields -e tcp.stream
+  492  tshark -2 -r capDESKTOP-AN3U28N-172.31.67.116 -T fields -e tcp.stream
+  493  ls
+  494  cd awsData/
+  495  ls
+  496  cd cic2018/
+  497  sl
+  498  ls
+  499  cd Original\ Network\ Traffic\ and\ Log\ data/
+  500  cd
+  501  cd ..
+  502  cd /home/minwook/awsData/cic2018/Original\ Network\ Traffic\ and\ Log\ data/
+  503  ls
+  504  cd Wednesday-21-02-2018/
+  505  ls
+  506  cd pcap
+  507  ls
+  508  cd test/
+  509  ls
+  510  hisotyr
+  511  history
+  512  tshark -Y usb -2 -r capDESKTOP-AN3U28N-172.31.67.116 -T fields -e tcp.stream
+  513  tshark -Y usb -r capDESKTOP-AN3U28N-172.31.67.116 -T fields -e tcp.stream
+  514  tshark -r "capDESKTOP-AN3U28N-172.31.67.116" -Y usb -z conv,tcp -T fields -e tcp.stream
+  515  shutdown -h now
+  516  ls
+  517  cd awsData/
+  518  ls
+  519  cd cic2018/
+  520  ls
+  521  cd Original\ Network\ Traffic\ and\ Log\ data/
+  522  ls
+  523  cd Wednesday-21-02-2018/
+  524  cd pcap
+  525  cd test/
+  526  ls
+  527  vi extractor.py
+  528  vi extractor.py 
+  529  python3.7 extractor.py 
+  530  vi extractor.py 
+  531  python3.7 extractor.py 
+  532  pip3.7 scapy
+  533  pip3.7 install scapy
+  534  python3.7 extractor.py 
+  535  ls
+  536  vi extractorr2.py
+  537  ls
+  538  python3.7 extractor2
+  539  python3.7 ./extractorr2.py 
+  540  vi extractorr2.py
+  541  python3.7 ./extractorr2.py 
+  542  vi extractorr2.py
+  543  python3.7 ./extractorr2.py 
+  544  vi extractorr2.py
+  545  python3.7 ./extractorr2.py 
+  546  vi extractorr2.py
+  547  python3.7 ./extractorr2.py 
+  548  vi extractorr2.py
+  549  python3.7 ./extractorr2.py 
+  550  ls
+  551  head edges.csv 
+  552  cat edges.csv | wc -l
+  553  vi extractorr2.py 
+  554  shutdow -h now
+  555  shutdown -h now
+  556  cd /root/
+  557  ls
+  558  ls -al
+  559  cd .jupyter/
+  560  ls
+  561  git
+  562  mkdir git
+  563  git clone https://github.com/zwmin1616/ML_NTM.git
+  564  ls
+  565  cd ML_NTM/
+  566  ls
+  567  git init
+  568  git config --global user.email "zwmin1616@gmail.com"
+  569  git remote add origin https://github.com/zwmin1616/ML_NTM.git
+  570  git remote add origin https://github.com/zwmin1616/ML_NTM2.git
+  571  git remote rm origin
+  572  ls
+  573  echo "test" > test.txt
+  574  ls
+  575  cat test.txt 
+  576  git add test.txt 
+  577  git commit -m "first commit"
+  578  git push-u origin master
+  579  git push -u origin master
+  580  git remote add origin https://github.com/zwmin1616/ML_NTM.git
+  581  git pull origin master
+  582  ls
+  583  git remote add origin https://github.com/zwmin1616/ML_NTM.git
+  584  git push -u origin master
+  585  git remote add origin https://github.com/zwmin1616/ML_NTM.git
+  586  git remote rm origin
+  587  git remote add origin https://github.com/zwmin1616/ML_NTM.git
+  588  git commit -m "test1"
+  589  git add test.txt
+  590  git push origin master
+  591  git commit -m "test1"
+  592  git add test.txt
+  593  git push origin +master
+  594  ls
+  595  history > history.txt
